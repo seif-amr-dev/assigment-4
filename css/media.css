@@ -1,0 +1,148 @@
+ودي مقاسات الكونتينر اللي هتشتغلوا عليه حاليا 
+.container {
+    margin: 0 auto;
+    padding-inline: 12px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .nav-bar-content{
+        flex-direction: column;
+    }
+    .flex-start{
+        flex-direction: column;
+    }
+    #start{
+        overflow: visible;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+
+/*footer*/
+@media (max-width:992px){
+
+.footer-content{
+    flex-wrap: wrap;
+}
+
+.first-side,
+.second-side,
+.third-side{
+    width: 50%;
+}
+
+.second-side{
+    padding: 40px;
+}
+
+.third-side{
+    padding: 40px;
+}
+
+.last-side{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.last-links ul{
+    justify-content: center;
+}
+}
+
+
+
+@media (max-width:768px){
+
+.footer-content{
+    flex-direction: column;
+    text-align: center;
+}
+
+.first-side,
+.second-side,
+.third-side{
+    width: 100%;
+}
+
+.control-top-side{
+    justify-content: center;
+}
+
+.second-side{
+    padding: 20px;
+}
+
+.third-side{
+    padding: 20px;
+}
+
+.third-side input{
+    width: 100%;
+    padding-inline: 10px;
+}
+
+.third-side .submit-boutton button{
+    width: 100%;
+}
+
+.last-side{
+    flex-direction: column;
+    text-align: center;
+}
+
+.last-links ul{
+    flex-direction: column;
+    gap: 10px;
+}
+
+}
+
+@media (max-width:480px){
+
+.first-side p,
+.third-side p{
+    font-size: 16px;
+}
+
+.second-side li{
+    font-size: 16px;
+}
+
+.third-side h3,
+.control-top-side h3{
+    font-size: 18px;
+}
+
+.img-footer{
+    width: 50px;
+}
+
+.last-content p{
+    font-size: 14px;
+}
+
+}
